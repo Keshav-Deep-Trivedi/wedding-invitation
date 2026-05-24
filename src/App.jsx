@@ -120,8 +120,8 @@ hover:bg-yellow-300/10
 
       <div
         className={`transition-all duration-1000 ${showMain
-            ? "opacity-100 scale-100"
-            : "opacity-0 scale-110"
+          ? "opacity-100 scale-100"
+          : "opacity-0 scale-110"
           }`}
       >
 
@@ -218,13 +218,34 @@ hover:bg-yellow-300/10
 
             <div className="mb-5">
 
-              <p className="vivaldi text-yellow-300 medium-text mx-auto max-w-[240px] text-[3.2rem] leading-[0.85] sm:max-w-none sm:text-[5rem]">
 
-                {language === "en"
-                  ? "Wedding Invitation"
-                  : "विवाह निमंत्रण"}
+              <div
+                className="
+    mx-auto
+    flex
+    max-w-[240px]
+    flex-col
+    items-center
+    justify-center
+    text-center
+    leading-[0.85]
+    text-yellow-300
+  "
+              >
+                <span
+                  className="
+      vivaldi
+      block
+      text-[3rem]
+    "
+                >
 
-              </p>
+                  {language === "en"
+                    ? "Wedding Invitation"
+                    : "विवाह निमंत्रण"}
+
+                </span>
+              </div>
 
               <br />
 
