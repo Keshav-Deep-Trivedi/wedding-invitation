@@ -218,7 +218,7 @@ hover:bg-yellow-300/10
 
             <div className="mb-5">
 
-              <p className="vivaldi text-yellow-300 medium-text">
+              <p className="vivaldi text-yellow-300 medium-text mx-auto max-w-[240px] text-[3.2rem] leading-[0.85] sm:max-w-none sm:text-[5rem]">
 
                 {language === "en"
                   ? "Wedding Invitation"
