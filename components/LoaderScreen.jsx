@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 import mandala from "../src/assets/effects/mandala.png";
-import ganeshImage from "../src/assets/images/ganesh.png";
+import ganeshImage from "../src/assets/images/Ganesh.png";
 import mantraAudio from "../src/assets/audio/GaneshMantra.mp3";
 
 export default function LoaderScreen({ loading }) {
