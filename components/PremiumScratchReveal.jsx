@@ -107,10 +107,6 @@ export default function PremiumScratchReveal({ language }) {
                     {t.sectionTag}
                 </p>
 
-                <p className="vladmir medium-text text-5xl text-yellow-300">
-                    {t.heading}
-                </p>
-
                 <div className="mx-auto mt-6 h-[2px] w-32 bg-gradient-to-r from-transparent via-yellow-300 to-transparent opacity-70" />
 
                 <p className="mt-8 max-w-xl leading-8 text-stone-300">

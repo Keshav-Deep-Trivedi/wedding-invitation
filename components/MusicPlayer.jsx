@@ -10,12 +10,18 @@ export default function MusicPlayer({ startMusic }) {
 
   useEffect(() => {
     if (startMusic && audioRef.current) {
-      audioRef.current
+
+      const audio = audioRef.current;
+
+      audio.currentTime = 8.5;
+
+      audio
         .play()
         .then(() => {
           setPlaying(true);
         })
         .catch(() => { });
+
     }
   }, [startMusic]);
 
@@ -62,7 +68,7 @@ export default function MusicPlayer({ startMusic }) {
           margin-right: 10px
         "
       >
-        {playing ? "♫" : "♪" }
+        {playing ? "♫" : "♪"}
         <div className="flex items-center gap-1" style={{ marginLeft: "5px" }} >
 
           <div className="music-bar h-3 w-1 rounded-full bg-yellow-300" />
