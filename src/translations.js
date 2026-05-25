@@ -92,7 +92,7 @@ export const translations = {
                     time: "27 June • 11:00 PM",
 
                     description:
-                        "An emotional farewell beginning a beautiful new chapter of life.",
+                        "A farewell beginning a beautiful new chapter of life.",
                 },
             ],
         },
@@ -106,7 +106,7 @@ export const translations = {
 
             weddingDate: "Wedding Date",
 
-            location: "Bhandir Van, Vrindavan",
+            location: "Yashoda Nandan Dham, Vrindavan",
 
             revealMessage: "The celebration awaits you ✨",
         },
@@ -251,7 +251,7 @@ export const translations = {
                     time: "27 जून • रात्रि 11:00 बजे",
 
                     description:
-                        "भावुक विदाई के साथ नए जीवन की सुंदर शुरुआत।",
+                        "विदाई के साथ नए जीवन की सुंदर शुरुआत।",
                 },
             ],
         },
@@ -266,7 +266,7 @@ export const translations = {
 
             weddingDate: "विवाह तिथि",
 
-            location: "भांडीर वन, वृन्दावन",
+            location: "यशोदा नन्दन धाम, वृन्दावन",
 
             revealMessage:
                 "उत्सव आपका इंतज़ार कर रहा है ✨",

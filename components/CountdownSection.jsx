@@ -85,9 +85,9 @@ export default function CountdownSection({ language }) {
           {t.sectionTag}
         </p>
 
-        <h2 className="vladmir medium-text text-5xl text-white">
+        <p className="vladmir medium-text text-5xl text-yellow-300">
           {t.heading}
-        </h2>
+        </p>
 
         <div className="mx-auto mt-6 h-[2px] w-32 bg-gradient-to-r from-transparent via-yellow-300 to-transparent opacity-70" />
 

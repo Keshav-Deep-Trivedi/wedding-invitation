@@ -107,9 +107,9 @@ export default function PremiumScratchReveal({ language }) {
                     {t.sectionTag}
                 </p>
 
-                <h2 className="vladmir medium-text text-5xl text-white">
+                <p className="vladmir medium-text text-5xl text-yellow-300">
                     {t.heading}
-                </h2>
+                </p>
 
                 <div className="mx-auto mt-6 h-[2px] w-32 bg-gradient-to-r from-transparent via-yellow-300 to-transparent opacity-70" />
 
@@ -138,9 +138,9 @@ export default function PremiumScratchReveal({ language }) {
 
                         <br />
 
-                        <p className="vSmall-text mt-5 text-stone-300">
+                        {/* <p className="vSmall-text mt-5 text-stone-300">
                             {t.location}
-                        </p>
+                        </p> */}
 
                     </div>
 

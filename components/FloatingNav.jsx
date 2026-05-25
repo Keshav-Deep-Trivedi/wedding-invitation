@@ -23,16 +23,12 @@ const navItems = [
     icon: CalendarDays,
   },
   {
-    id: "gallery",
-    icon: Image,
+    id: "venue",
+    icon: MapPin,
   },
   {
     id: "rsvp",
     icon: Mail,
-  },
-  {
-    id: "venue",
-    icon: MapPin,
   },
 ];
 
