@@ -29,7 +29,7 @@ export default function VenueSection({ language }) {
                 {/* Heading */}
                 <div className="text-center">
 
-                    <p className="vivaldi medium-text mb-4 text-xs text-yellow-300">
+                    <p className="vivaldi small-text tracking-[0.1em] text-yellow-300">
                         {t.sectionTag}
                     </p>
 
@@ -67,13 +67,13 @@ export default function VenueSection({ language }) {
                     </div>
 
                     {/* Content */}
-                    <div className="flex flex-col justify-center p-10">
+                    <div className="flex flex-col justify-center p-10 ">
 
-                        <p className="vivaldi medium-text text-yellow-300">
+                        <p className="vivaldi medium-text text-8xl tracking-[0.1em] text-yellow-300">
                             {t.detailsHeading}
                         </p>
 
-                        <h3 className="vivaldi medium-text mt-5 text-4xl text-white">
+                        <h3 className="vivaldi small-text mt-5 text-4xl text-white">
                             {t.venueName}
                         </h3>
 

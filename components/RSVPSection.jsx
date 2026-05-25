@@ -40,7 +40,7 @@ export default function RSVPSection({ language }) {
 
         <br />
 
-        <p className="vSmall-text mt-6 text-stone-300">
+        <p className="vvSmall-text mt-6 text-stone-300">
           {t.subheading}
         </p>
 

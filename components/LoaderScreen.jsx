@@ -132,10 +132,10 @@ export default function LoaderScreen({ loading }) {
               }}
               className="
                 absolute
-                
-                left-[166px]
-                w-[160px]
-                opacity-10
+                top-[-100px]
+                left-[120px]
+                w-[120px]
+                opacity-50
                 drop-shadow-[0_0_30px_rgba(255,215,0,0.25)]
               "
             />
@@ -180,10 +180,10 @@ export default function LoaderScreen({ loading }) {
                 mt-8
                 max-w-[480px]
                 text-center
-                small-text
+                vSmall-text
                 text-sm
                 leading-8
-                tracking-[0.10em]
+                tracking-[0.15em]
                 text-yellow-100
               "
             >

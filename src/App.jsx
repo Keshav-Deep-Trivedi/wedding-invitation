@@ -235,9 +235,9 @@ hover:bg-yellow-300/10
                 <span
                   className="
       vivaldi
+      small-text
       block
-      text-[3rem]
-      tracking-[0.05em]
+      tracking-[0.1em]
     "
                 >
 
