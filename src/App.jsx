@@ -257,7 +257,7 @@ hover:bg-yellow-300/10
                   transition={{ delay: 1 }}
                   className="
                     mt-5
-                    vSmall-text
+                    vvvSmall-text
                     text-lg
                     italic
                     text-yellow-200
