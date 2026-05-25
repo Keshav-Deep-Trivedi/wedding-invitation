@@ -237,6 +237,7 @@ hover:bg-yellow-300/10
       vivaldi
       block
       text-[3rem]
+      tracking-[0.05em]
     "
                 >
 
@@ -276,12 +277,13 @@ hover:bg-yellow-300/10
 
             {/* NAMES */}
 
-            <h1
+            <p
               className="
-                vivaldi
+                vladmir
                 text-6xl
+                medium-text
                 leading-tight
-                text-white
+                text-yellow-300
                 drop-shadow-[0_0_30px_rgba(255,215,0,0.25)]
                 md:text-8xl
               "
@@ -291,15 +293,19 @@ hover:bg-yellow-300/10
                 ? "Shankar Sharma"
                 : "शंकर शर्मा"}
 
-              <span className="mx-4 text-yellow-300">
+              <br></br>
+
+              <span className="medium-text text-yellow-300">
                 &
               </span>
+
+              <br></br>
 
               {language === "en"
                 ? "Shivangi Trivedi"
                 : "शिवांगी त्रिवेदी"}
 
-            </h1>
+            </p>
 
             <div className="mx-auto mt-6 h-[2px] w-40 bg-gradient-to-r from-transparent via-yellow-300 to-transparent opacity-70" />
 
@@ -323,14 +329,15 @@ hover:bg-yellow-300/10
 
         <SectionDivider />
 
-        <EventsSection language={language} />
-
         <PremiumScratchReveal language={language} />
 
         <SectionDivider />
 
         <CountdownSection language={language} />
 
+        <EventsSection language={language} />
+
+        
         {/* OPTIONAL */}
         {/* <SectionDivider /> */}
         {/* <GallerySection language={language} /> */}

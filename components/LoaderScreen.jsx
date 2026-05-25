@@ -132,10 +132,10 @@ export default function LoaderScreen({ loading }) {
               }}
               className="
                 absolute
-                top-[-100px]
-                left-[100px]
-                w-[120px]
-                opacity-50
+                
+                left-[166px]
+                w-[160px]
+                opacity-10
                 drop-shadow-[0_0_30px_rgba(255,215,0,0.25)]
               "
             />
@@ -176,14 +176,14 @@ export default function LoaderScreen({ loading }) {
                 duration: 1.5,
               }}
               className="
-                vivaldi
+                scriptBold
                 mt-8
-                max-w-[320px]
+                max-w-[480px]
                 text-center
-                vSmall-text
+                small-text
                 text-sm
                 leading-8
-                tracking-[0.12em]
+                tracking-[0.10em]
                 text-yellow-100
               "
             >
