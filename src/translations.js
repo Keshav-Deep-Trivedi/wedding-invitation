@@ -33,66 +33,87 @@ export const translations = {
 
             items: [
                 {
-                    title: "Ganesh Poojan",
+                    title: "Shri Ganesh Nimantran",
+                    time: "22 June • 9:00 AM",
+                    description:
+                        "Seeking the blessings of Lord Ganesha and formally inviting Him to grace the wedding celebrations.",
+                },
 
+                {
+                    title: "Sankadi Vinayak Poojan",
+                    time: "25 June • 10:00 AM",
+                    description:
+                        "Traditional worship of Shri Sankadi Vinayak for auspiciousness and removal of all obstacles.",
+                },
+
+                {
+                    title: "Haldi Ceremony",
+                    time: "26 June • 9:00 AM",
+                    description:
+                        "A joyful ritual where turmeric is applied to bless the bride and groom with prosperity and happiness.",
+                },
+
+                {
+                    title: "Mehendi Ceremony",
+                    time: "26 June • 10:00 AM",
+                    description:
+                        "A colorful celebration adorned with beautiful henna designs, music, and family festivities.",
+                },
+
+                {
+                    title: "Chaak Ceremony",
+                    time: "26 June • 11:00 AM",
+                    description:
+                        "A cherished traditional family ritual performed as part of the wedding festivities.",
+                },
+
+                {
+                    title: "Bhaat Ceremony",
+                    time: "26 June • 2:00 PM",
+                    description:
+                        "A sacred family tradition celebrating love, blessings, and togetherness between relatives.",
+                },
+
+                {
+                    title: "Bhajan Sandhya",
                     time: "26 June • 5:00 PM",
-
                     description:
-                        "Seeking divine blessings for an auspicious beginning to the sacred celebrations.",
+                        "An evening of devotional kirtans and bhajans filled with spiritual joy and divine remembrance.",
                 },
 
                 {
-                    title: "Haldi & Mehendi",
-
-                    time: "26 June • 6:00 PM",
-
+                    title: "Tilak & Engagement Ceremony",
+                    time: "27 June • 10:00 AM",
                     description:
-                        "Traditional ceremonies filled with colors, joy, laughter, and cherished memories.",
+                        "A sacred ritual marking the formal union of two families and the blessing of the couple.",
                 },
 
                 {
-                    title: "Tilak Ceremony",
-
-                    time: "27 June • 10:00 AM – 12:00 PM",
-
+                    title: "Arrival of the Baraat",
+                    time: "27 June • 4:00 PM",
                     description:
-                        "A sacred ritual honoring the union of two loving families.",
+                        "The groom's grand wedding procession arrives amidst celebration, music, and festivity.",
                 },
 
                 {
-                    title: "Varmala Ceremony",
-
-                    time: "27 June • 12:00 PM",
-
+                    title: "Sacred Wedding Pheras",
+                    time: "27 June • 5:30 PM – 7:30 PM",
                     description:
-                        "The beautiful exchange of garlands celebrating love and togetherness.",
+                        "The bride and groom take their sacred vows around the holy fire, beginning their journey together.",
                 },
 
                 {
-                    title: "Phere",
-
-                    time: "27 June • 5:00 PM – 7:00 PM",
-
+                    title: "Blessing Ceremony & Grand Feast",
+                    time: "27 June • 7:00 PM",
                     description:
-                        "Sacred vows around the holy fire marking the divine union of the couple.",
+                        "Family and guests bless the newly married couple followed by a delightful celebratory feast.",
                 },
 
                 {
-                    title: "Dinner",
-
-                    time: "27 June • 7:00 PM – 10:00 PM",
-
+                    title: "Paani Grahan Sanskar",
+                    time: "27 June • Godhuli Bela",
                     description:
-                        "A delightful dinner celebration shared with family, friends, and loved ones.",
-                },
-
-                {
-                    title: "Vidai",
-
-                    time: "27 June • 11:00 PM",
-
-                    description:
-                        "A farewell beginning a beautiful new chapter of life.",
+                        "A traditional wedding ritual performed during the auspicious twilight hour.",
                 },
             ],
         },
@@ -192,66 +213,87 @@ export const translations = {
 
             items: [
                 {
-                    title: "गणेश पूजन",
-
-                    time: "26 जून • शाम 5:00 बजे",
-
+                    title: "श्री गणेश निमंत्रण",
+                    time: "22 जून • प्रातः 9:00 बजे",
                     description:
-                        "शुभ एवं मंगलमय विवाह उत्सव के आरम्भ हेतु भगवान गणेश का पूजन।",
+                        "विवाहोत्सव के शुभारम्भ हेतु श्री गणेश जी को आमंत्रित कर उनका मंगल आशीर्वाद प्राप्त किया जाएगा।",
                 },
 
                 {
-                    title: "हल्दी एवं मेहंदी",
-
-                    time: "26 जून • शाम 6:00 बजे",
-
+                    title: "संकड़ी विनायक पूजन",
+                    time: "25 जून • प्रातः 10:00 बजे",
                     description:
-                        "रंगों, हँसी और आनंद से भरा पारंपरिक शुभ समारोह।",
+                        "सभी विघ्नों के निवारण एवं मंगल कार्य की सिद्धि हेतु श्री संकड़ी विनायक का पूजन।",
                 },
 
                 {
-                    title: "तिलक समारोह",
-
-                    time: "27 जून • प्रातः 10:00 – 12:00 बजे",
-
+                    title: "हल्दी समारोह",
+                    time: "26 जून • प्रातः 9:00 बजे",
                     description:
-                        "दो परिवारों के पावन मिलन का शुभ संस्कार।",
+                        "दूल्हा-दुल्हन को शुभता, सौभाग्य एवं आनंद का आशीर्वाद प्रदान करने वाला पारंपरिक संस्कार।",
                 },
 
                 {
-                    title: "वरमाला",
-
-                    time: "27 जून • दोपहर 12:00 बजे",
-
+                    title: "मेहंदी समारोह",
+                    time: "26 जून • प्रातः 10:00 बजे",
                     description:
-                        "प्रेम और एकता का सुंदर प्रतीकात्मक आदान-प्रदान।",
+                        "रंग, संगीत, उल्लास एवं सुंदर मेहंदी अलंकरणों से सुसज्जित आनंदमय समारोह।",
                 },
 
                 {
-                    title: "फेरे",
-
-                    time: "27 जून • शाम 5:00 – 7:00 बजे",
-
+                    title: "चाक समारोह",
+                    time: "26 जून • प्रातः 11:00 बजे",
                     description:
-                        "अग्नि के समक्ष लिए गए पवित्र वचनों के साथ दिव्य मिलन।",
+                        "पारिवारिक परम्पराओं एवं शुभ संस्कारों से जुड़ा एक विशेष विवाह अनुष्ठान।",
                 },
 
                 {
-                    title: "भोज",
-
-                    time: "27 जून • शाम 7:00 – 10:00 बजे",
-
+                    title: "भात समारोह",
+                    time: "26 जून • दोपहर 2:00 बजे",
                     description:
-                        "परिवार एवं प्रियजनों के साथ आनंदमय रात्रि-भोज।",
+                        "मातृ पक्ष द्वारा प्रेम, स्नेह एवं मंगल आशीर्वाद अर्पित करने की पावन परम्परा।",
                 },
 
                 {
-                    title: "विदाई",
-
-                    time: "27 जून • रात्रि 11:00 बजे",
-
+                    title: "भजन संध्या",
+                    time: "26 जून • सायं 5:00 बजे",
                     description:
-                        "विदाई के साथ नए जीवन की सुंदर शुरुआत।",
+                        "भक्ति, कीर्तन एवं श्रीहरि स्मरण से परिपूर्ण दिव्य संगीतमय संध्या।",
+                },
+
+                {
+                    title: "तिलक एवं सगाई समारोह",
+                    time: "27 जून • प्रातः 10:00 बजे",
+                    description:
+                        "दो परिवारों के शुभ मिलन एवं वर-वधू के मंगल बंधन का पावन संस्कार।",
+                },
+
+                {
+                    title: "बारात आगमन",
+                    time: "27 जून • सायं 4:00 बजे",
+                    description:
+                        "हर्षोल्लास, संगीत एवं उत्सव के मध्य वर पक्ष की भव्य बारात का आगमन।",
+                },
+
+                {
+                    title: "पावन विवाह फेरे",
+                    time: "27 जून • सायं 5:30 – 7:30 बजे",
+                    description:
+                        "अग्निदेव को साक्षी मानकर वर-वधू द्वारा सप्तपदी एवं वैवाहिक व्रत ग्रहण।",
+                },
+
+                {
+                    title: "आशीर्वाद समारोह एवं प्रीतिभोज",
+                    time: "27 जून • सायं 7:00 बजे",
+                    description:
+                        "नवदंपति को आशीर्वाद प्रदान करने के उपरांत स्नेहपूर्ण प्रीतिभोज का आयोजन।",
+                },
+
+                {
+                    title: "पाणिग्रहण संस्कार",
+                    time: "27 जून • गोधूलि बेला",
+                    description:
+                        "शुभ गोधूलि बेला में सम्पन्न होने वाला वैदिक वैवाहिक संस्कार।",
                 },
             ],
         },

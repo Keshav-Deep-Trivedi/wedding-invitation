@@ -34,7 +34,7 @@ export default function App() {
 
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 27000);
+    }, 8000);
 
     return () => clearTimeout(timer);
 
