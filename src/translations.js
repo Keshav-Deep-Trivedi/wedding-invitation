@@ -89,10 +89,10 @@ export const translations = {
                 },
 
                 {
-                    title: "Sacred Wedding Pheras",
+                    title: "Paani Grahan Sanskar",
                     time: "27 June • 5:30 PM – 7:30 PM",
                     description:
-                        "The bride and groom take their sacred vows around the holy fire, beginning their journey together.",
+                        "A traditional wedding ritual performed during the auspicious twilight hour.",
                 },
 
                 {
@@ -102,12 +102,6 @@ export const translations = {
                         "Family and guests bless the newly married couple followed by a delightful celebratory feast.",
                 },
 
-                {
-                    title: "Paani Grahan Sanskar",
-                    time: "27 June • Godhuli Bela",
-                    description:
-                        "A traditional wedding ritual performed during the auspicious twilight hour.",
-                },
             ],
         },
 
@@ -262,10 +256,10 @@ export const translations = {
                 },
 
                 {
-                    title: "पावन विवाह फेरे",
+                    title: "पाणिग्रहण संस्कार",
                     time: "27 जून • सायं 5:30 – 7:30 बजे",
                     description:
-                        "अग्निदेव को साक्षी मानकर वर-वधू द्वारा सप्तपदी एवं वैवाहिक व्रत ग्रहण।",
+                        "शुभ गोधूलि बेला में सम्पन्न होने वाला वैदिक वैवाहिक संस्कार।",
                 },
 
                 {
