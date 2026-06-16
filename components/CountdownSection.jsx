@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { translations } from "../src/translations";
+import SectionMantras from "../components/SectionMantras";
 
 export default function CountdownSection({ language }) {
   const t = translations[language].countdown;
@@ -69,6 +70,7 @@ export default function CountdownSection({ language }) {
 
   return (
     <section className="relative overflow-hidden bg-[#1a0909] px-6 py-28 text-white">
+      <SectionMantras/>
 
       {/* Ambient Glow */}
       <div className="absolute left-1/2 top-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-yellow-500/10 blur-3xl" />

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { translations } from "../src/translations";
+import SectionMantras from "../components/SectionMantras";
 
 export default function RSVPSection({ language }) {
 
@@ -25,6 +26,7 @@ export default function RSVPSection({ language }) {
         text-center
       "
     >
+      <SectionMantras/>
 
       <div className="mx-auto max-w-xl">
 

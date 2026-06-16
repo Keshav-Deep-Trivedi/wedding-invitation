@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import venueImage from "../src/assets/images/venue.jpg";
 import { translations } from "../src/translations";
+import SectionMantras from "../components/SectionMantras";
 
 export default function VenueSection({ language }) {
 
@@ -14,6 +15,7 @@ export default function VenueSection({ language }) {
             id="venue"
             className="relative overflow-hidden bg-gradient-to-b from-[#1a0909] to-[#120606] px-6 py-28 text-white"
         >
+            <SectionMantras/>
 
             {/* Ambient Glow */}
             <div className="absolute left-1/2 top-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-yellow-500/10 blur-3xl" />

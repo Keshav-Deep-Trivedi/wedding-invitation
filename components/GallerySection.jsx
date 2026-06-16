@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import SectionMantras from "../components/SectionMantras";
 
 import img1 from "../src/assets/gallery/1.jpg";
 import img2 from "../src/assets/gallery/2.jpg";
@@ -19,6 +20,8 @@ export default function GallerySection() {
 
   return (
     <section id="gallery" className="relative overflow-hidden bg-gradient-to-b from-[#1a0909] to-[#120606] px-6 py-28 text-white">
+
+      <SectionMantras/>
 
       {/* Ambient Glow */}
       <div className="absolute left-1/2 top-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-yellow-500/10 blur-3xl" />

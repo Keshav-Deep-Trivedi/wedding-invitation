@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { translations } from "../src/translations";
+import SectionMantras from "../components/SectionMantras";
 
 export default function StorySection({ language }) {
   const t = translations[language].story;
@@ -9,6 +10,7 @@ export default function StorySection({ language }) {
       id="story"
       className="relative overflow-hidden bg-[#140707] px-6 py-28 text-white"
     >
+      <SectionMantras/>
 
       {/* Ambient Glow */}
       <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-yellow-500/10 blur-3xl" />
