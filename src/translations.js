@@ -61,20 +61,6 @@ export const translations = {
                 },
 
                 {
-                    title: "Chaak Ceremony",
-                    time: "26 June • 11:00 AM",
-                    description:
-                        "A cherished traditional family ritual performed as part of the wedding festivities.",
-                },
-
-                {
-                    title: "Bhaat Ceremony",
-                    time: "26 June • 2:00 PM",
-                    description:
-                        "A sacred family tradition celebrating love, blessings, and togetherness between relatives.",
-                },
-
-                {
                     title: "Bhajan Sandhya",
                     time: "26 June • 5:00 PM",
                     description:
@@ -82,10 +68,17 @@ export const translations = {
                 },
 
                 {
-                    title: "Tilak & Engagement Ceremony",
+                    title: "Tilak Ceremony",
                     time: "27 June • 10:00 AM",
                     description:
                         "A sacred ritual marking the formal union of two families and the blessing of the couple.",
+                },
+
+                {
+                    title: "Varmala Ceremony",
+                    time: "27 June • 12:00 PM",
+                    description:
+                        "A beautiful and symbolic exchange of garlands between the bride and groom, marking the beginning of their sacred union amidst blessings, joy, and celebration.",
                 },
 
                 {
@@ -241,20 +234,6 @@ export const translations = {
                 },
 
                 {
-                    title: "चाक समारोह",
-                    time: "26 जून • प्रातः 11:00 बजे",
-                    description:
-                        "पारिवारिक परम्पराओं एवं शुभ संस्कारों से जुड़ा एक विशेष विवाह अनुष्ठान।",
-                },
-
-                {
-                    title: "भात समारोह",
-                    time: "26 जून • दोपहर 2:00 बजे",
-                    description:
-                        "मातृ पक्ष द्वारा प्रेम, स्नेह एवं मंगल आशीर्वाद अर्पित करने की पावन परम्परा।",
-                },
-
-                {
                     title: "भजन संध्या",
                     time: "26 जून • सायं 5:00 बजे",
                     description:
@@ -262,10 +241,17 @@ export const translations = {
                 },
 
                 {
-                    title: "तिलक एवं सगाई समारोह",
+                    title: "तिलक समारोह",
                     time: "27 जून • प्रातः 10:00 बजे",
                     description:
                         "दो परिवारों के शुभ मिलन एवं वर-वधू के मंगल बंधन का पावन संस्कार।",
+                },
+
+                {
+                    title: "वरमाला समारोह",
+                    time: "27 जून • दोपहर 12:00 बजे",
+                    description:
+                        "वर एवं वधू द्वारा शुभ वरमाला का आदान-प्रदान, जो उनके पावन मिलन, प्रेम और आजीवन साथ के मंगल संकल्प का प्रतीक है।",
                 },
 
                 {
